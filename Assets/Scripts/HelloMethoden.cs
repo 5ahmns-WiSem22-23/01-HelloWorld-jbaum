@@ -31,10 +31,10 @@ public class HelloMethoden : MonoBehaviour
         Debug.Log("after startValue3: " + startValue3);
 
         //at 4
-        DecrementByOne();
+        DecrementByOne(3);
     }
 
-    private void DecrementByOne(in val)
+    private void DecrementByOne(int val)
     {
         startValue3--;
         Debug.Log("val: +val");
